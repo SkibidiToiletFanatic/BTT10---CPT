@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BTT10 Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Times New Roman;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #808080;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #b;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> BTT10 Portfolio </h1>
+  <p>A website created using HTML coding</p>
+</div
+
+<div class="navbar">
+  <a href="https://docs.google.com/spreadsheets/d/1jHWfMdykoedaz-ORyC_gKuMPXH5uZjH8FVA7o1Mb91g/edit?usp=sharing">BTT10 Typing Log</a>
+  <a href="https://docs.google.com/spreadsheets/d/1LmGHY-cxGI1czZHj18NkZBFNQ_Dco5wwsKb-o-71QB0/edit?usp=sharing">Cover Letter</a>
+  <a href="https://docs.google.com/document/d/19z6Iy3Z27HsdZYX8EVMpxbkKqJFSCVrFfkLPbB-AMMQ/edit?usp=sharing">BTT10 Spreadsheet</a>
+  <a href="https://docs.google.com/document/d/18KAvmb0XlxrqC9iyHQYchK6xIpdEovHMCkMKtiTvrqU/edit?usp=sharing" class="right">BTT10 Spreadsheet 2</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>My name is Kingston Fernandes, and I am currently enrolled in the BTT10 business class, where I have acquired a variety of valuable knowledge and skills. Throughout this course, I have gained a understanding of the importance of various technological tools and resources that are essential in the modern business world. These include the significance of WiFi connectivity, the role of computers in daily operations, and theapplications of spreadsheets for data management and analysis. Additionally, the curriculum has covered a wide range of other relevant topics that have further enhanced my proficiency in business technology. For a more detailed overview of what I have learned and to explore my projects, please review my website. </p>
+  </div>
+  <div class="main">
+    <h2>Personal Overview</h2>
+    <p>My Qualifications </p>
+    <p>I believe I am an excellent candidate for this job due to my extensive background with a wide range of technologies. My proficiency in using these tools enables me to effectively expand ideas and contribute to the growth and success of the company. Technology is the future of our society, and learning about how to use it is crucial for innovation and progress. My expertise positions me to help drive this technological advancement, ensuring that the company stays at the forefront of industry developments and remains competitive in an increasingly digital world.</p>
+    <br>
+    <h2>Experience</h2>
+    <h5>My Background in Technology</h5>
+    <p>I possess extensive knowledge in technology, with a strong proficiency in a wide array of software programs and tools. My expertise spans across various platforms, including Adobe Creative Suite, Microsoft Excel, and Google Workspace. Additionally, I have foundational skills in basic coding, which further enhances my ability to solve problems and create efficient solutions. My ability to thrive while using these programs enables me to handle complex tasks with ease and contribute significantly to any technological problems within the company. </p>
+  </div>
+
+</body>
+</html>
